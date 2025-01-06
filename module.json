@@ -1,0 +1,40 @@
+{
+  "id": "my-first-module",
+  "title": "My First Module",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Ron Ogden",
+      "email": "rogden@gmail.com",
+      "url": "https://therealrogden.com",
+      "discord": "rogden",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "my-new-adventure",
+      "label": "My New Adventure",
+      "path": "packs/my-new-adventure",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ]
+}
