@@ -2,6 +2,9 @@
   "id": "my-first-module",
   "title": "My First Module",
   "version": "1.0.0",
+  "url": "https://github.com/drmagoo18/my-first-module",
+  "manifest": "https://raw.githubusercontent.com/drmagoo18/my-first-module/refs/heads/main/module.json",
+  "download": "https://github.com/drmagoo18/my-first-module/archive/refs/heads/main.zip" 
   "compatibility": {
     "minimum": "12",
     "verified": "12"
